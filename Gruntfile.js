@@ -19,13 +19,14 @@ module.exports = function(grunt) {
 				webpack: {
 					entry: "./src/index.js",
 					output: {
-						path: "build",
+						path: "build/",
 						filename: "bundle.js"
 					},
 					plugins: [new webpack.DefinePlugin({
 						ok: JSON.stringify("ok")
 					})]
 				},
+				publicPath: '/build/',
 				keepalive: true
 			}
 		}
