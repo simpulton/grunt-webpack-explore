@@ -1,7 +1,7 @@
 {
   "name": "grunt-webpack-explore",
-  "version": "1.0.0",
-  "description": "Messing around with grunt",
+  "version": "0.1.1",
+  "description": "A simple grunt/webpack configuration.",
   "main": "index.js",
   "peerDependencies": {
     "webpack": "1.x",
@@ -9,8 +9,7 @@
   },
   "devDependencies": {
     "grunt": "^0.4.5",
-    "grunt-webpack": "1.0.11",
-    "jasmine": "2.3.2"
+    "grunt-webpack": "1.0.11"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
